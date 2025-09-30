@@ -30,8 +30,8 @@
 
 ## 页面展示
 
-<img src="./image/Screenshot 2025-09-30 at 10.44.20 pm.png" alt="Screenshot 2025-09-30 at 10.44.20 pm" style="zoom:50%;" />
+<img src="./image/Screenshot 2025-09-30 at 10.44.20 pm.png" alt="Screenshot 2025-09-30 at 10.44.20 pm" style="zoom:35%;" />
 
-<img src="./image/Screenshot 2025-09-30 at 10.44.12 pm.png" alt="Screenshot 2025-09-30 at 10.44.12 pm" style="zoom:50%;" />
+<img src="./image/Screenshot 2025-09-30 at 10.44.12 pm.png" alt="Screenshot 2025-09-30 at 10.44.12 pm" style="zoom:35%;" />
 
-<img src="./image/Screenshot 2025-09-30 at 10.44.06 pm.png" alt="Screenshot 2025-09-30 at 10.44.06 pm" style="zoom:50%;" />
+<img src="./image/Screenshot 2025-09-30 at 10.44.06 pm.png" alt="Screenshot 2025-09-30 at 10.44.06 pm" style="zoom:35%;" />
