@@ -1,7 +1,7 @@
 import { useState, useEffect} from 'react'
 
 import InputPart from './assets/components/input-part'
-import ListPart from './assets/components/todo-list';
+import ListPart from './assets/components/todo-list'
 
 import './App.css'
 
@@ -77,11 +77,13 @@ function App() {
   const filteredItems = todoItems.filter(FILTERS[selectState]);
   return (
     <>
-      <div className='container'>
-        <h1>React TODO List</h1>
-        <h2>What needs to be done?</h2>
-        <InputPart onAdd={handleAdd} changeSelect={changeSelectState}/>
-        <ListPart items={filteredItems} changeDone={changeState} onDelete={handleDelete} onEdit={handleEdit}/>
+      <div className="scale-box">
+        <div className='container'>
+          <h1>React TODO List</h1>
+          <h2>What needs to be done?</h2>
+          <InputPart onAdd={handleAdd} changeSelect={changeSelectState}/>
+          <ListPart items={filteredItems} changeDone={changeState} onDelete={handleDelete} onEdit={handleEdit}/>
+        </div>
       </div>
     </>
   )

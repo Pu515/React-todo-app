@@ -216,3 +216,17 @@
     font-size: 22px;
   }
 }
+
+.scale-box {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 680px) {
+  .scale-box .container {
+    transform: scale(calc(100vw / 680));
+    transform-origin: top center;
+    will-change: transform;
+  }
+}
