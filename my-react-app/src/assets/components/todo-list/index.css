@@ -1,0 +1,51 @@
+.select-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(4, 90%, 58%);
+  width: 60px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+.select-button.on {
+  background-color: #4caf50;
+}
+
+.block {
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.block .icon {
+  width: 16px;
+  height: 16px;
+}
+
+@keyframes move-right {
+  from { transform: translateX(0);}
+  to { transform: translateX(26px);}
+}
+
+@keyframes move-left {
+  from { transform: translateX(30px);}
+  to { transform: translateX(0);}
+}
+
+.move-right {
+  animation: move-right 0.3s forwards;
+}
+
+.move-left {
+  animation: move-left 0.3s forwards;
+}
